@@ -1,0 +1,221 @@
+[
+  {
+    "id": 1,
+    "description": "Кнопки під пошуковою стрічкою не відцентровані",
+    "solution": {
+      "css": {
+        ".button-container": {
+          "display": "flex",
+          "justify-content": "center"
+        }
+      }
+    }
+  },
+  {
+    "id": 2,
+    "description": "Панель керування 'Файл' та 'Едіт' різні відступи між ними",
+    "solution": {
+      "css": {
+        ".control-panel button": {
+          "margin": "0 5px"
+        }
+      }
+    }
+  },
+  {
+    "id": 3,
+    "description": "Вверху у вікні браузера текст 'фаєр фокс' не відцентрований відносно іконки",
+    "solution": {
+      "css": {
+        ".browser-header .text": {
+          "display": "flex",
+          "align-items": "center",
+          "justify-content": "center"
+        }
+      }
+    }
+  },
+  {
+    "id": 4,
+    "description": "Подвійна стрілка вниз, внизу у нижньому правому куту, там де скрол",
+    "solution": {
+      "css": {
+        ".scroll-arrow": {
+          "position": "absolute",
+          "bottom": "10px",
+          "right": "10px"
+        }
+      }
+    }
+  },
+  {
+    "id": 5,
+    "description": "Кнопка 'гугл сьорч' - три літери 000",
+    "solution": {
+      "html": "<button id='google-search'>Google Search</button>"
+    }
+  },
+  {
+    "id": 6,
+    "description": "'Адванс сьорч' та 'ленгвіч тулс' розташовані не зовсім зручно",
+    "solution": {
+      "css": {
+        ".advanced-search, .language-tools": {
+          "display": "block",
+          "position": "relative",
+          "top": "-10px"
+        }
+      }
+    }
+  },
+  {
+    "id": 7,
+    "description": "'Сьорч сетінгс та сайн ін лінки' повинні бути не на панелі керування, а винесені окремо",
+    "solution": {
+      "css": {
+        ".search-settings, .sign-in-links": {
+          "position": "absolute",
+          "top": "10px",
+          "right": "10px"
+        }
+      }
+    }
+  },
+  {
+    "id": 8,
+    "description": "Кнопка 'Х' в верхньому правому кутку не коректно зображена",
+    "solution": {
+      "css": {
+        ".close-button": {
+          "background": "url('close-icon.png') no-repeat center",
+          "width": "20px",
+          "height": "20px"
+        }
+      }
+    }
+  },
+  {
+    "id": 9,
+    "description": "Кнопка 'звернути, розвернути' перевернута",
+    "solution": {
+      "css": {
+        ".minimize-button, .maximize-button": {
+          "transform": "rotate(0deg)"
+        }
+      }
+    }
+  },
+  {
+    "id": 10,
+    "description": "В верхньому правому куту під батонами звернути, розвернути, закрити вікно 'лоадінг' замість значка 'конфігурейшн меню' або 'ког ікон'",
+    "solution": {
+      "html": "<img src='config-icon.png' alt='Configuration Menu' />"
+    }
+  },
+  {
+    "id": 11,
+    "description": "'Лінка ньювс' розташована вижче відносно всіх інших",
+    "solution": {
+      "css": {
+        ".news-link": {
+          "vertical-align": "middle"
+        }
+      }
+    }
+  },
+  {
+    "id": 12,
+    "description": "'Лінка веб' виокремлена іншим стилем відносно інших",
+    "solution": {
+      "css": {
+        ".web-link": {
+          "font-style": "normal"
+        }
+      }
+    }
+  },
+  {
+    "id": 13,
+    "description": "'Лінка iGoogle' ма орф. помилку",
+    "solution": {
+      "html": "<a href='igoogle.com' class='igoogle-link'>iGoogle</a>"
+    }
+  },
+  {
+    "id": 14,
+    "description": "'Сьорч сетінгс та сайн ін лінки' мають інший стиль відносно інших",
+    "solution": {
+      "css": {
+        ".search-settings, .sign-in-links": {
+          "font-style": "normal",
+          "color": "#000"
+        }
+      }
+    }
+  },
+  {
+    "id": 15,
+    "description": "Поле 'пошуковий інпут' роз'їхався",
+    "solution": {
+      "css": {
+        ".search-input": {
+          "width": "100%",
+          "box-sizing": "border-box"
+        }
+      }
+    }
+  },
+  {
+    "id": 16,
+    "description": "Вкладки 'гугл' та 'антатітлед' не мають значків",
+    "solution": {
+      "html": "<link rel='icon' href='favicon.ico' />"
+    }
+  },
+  {
+    "id": 17,
+    "description": "Вкладка 'анттітлед' не має назви",
+    "solution": {
+      "html": "<title>Untitled</title>"
+    }
+  },
+  {
+    "id": 18,
+    "description": "В верхньому лівому куту 'Google- Mozilla Fire Fox' - не коректно відображено назву браузера",
+    "solution": {
+      "html": "<div class='browser-name'>Mozilla Firefox</div>"
+    }
+  },
+  {
+    "id": 19,
+    "description": "'Лінка море' мала б мати стрілочку з випадаючим списком вниз",
+    "solution": {
+      "html": "<a href='#' class='more-link'>More <span class='arrow'>&#9660;</span></a>"
+    }
+  },
+  {
+    "id": 20,
+    "description": "На панелі керування браузера батони з випадаючими менюшками мають незрозуміле одне нижнє підкреслювання",
+    "solution": {
+      "css": {
+        ".dropdown-button": {
+          "text-decoration": "none"
+        }
+      }
+    }
+  },
+  {
+    "id": 21,
+    "description": "Кнопка 'I'm Feeling Unlucky' виділена іншим кольором відносно кнопки 'Google Search'",
+    "solution": {
+      "css": {
+        "#im-feeling-unlucky": {
+          "background-color": "#f2f2f2"
+        },
+        "#google-search": {
+          "background-color": "#4285f4"
+        }
+      }
+    }
+  }
+]
